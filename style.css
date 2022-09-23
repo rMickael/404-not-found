@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@import url("https://use.typekit.net/hfz8bsw.css");
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+* {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h3 {
+    color:  #333333;
+    padding: 15px 10px;
+
+}
+
+main.container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    text-align: center;
+    
+}
+
+section.card-error {
+    width: 300px;
+
+}
+
+
+.img-error-espantalho {
+    width: auto;
+    height: 40vh;
+
+}
+
+
+.text-error-tittle {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: space-mono, mono;
+    color: #333333;
+    
+
+}
+.text-error-paragraph {
+    line-height: 22px;
+    text-align: justify;
+    font-family: space-mono, mono;
+    font-weight: 700;
+
+    padding:  30px 20px;
+}
+
+.card-error-button {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 25px;
+}
+
+.btnback {
+    padding: 20px;
+    background:#333333;
+    color: white;
+    font-family: space-mono, mono;
+    font-weight: 500;
+    border: none;
+}
+
+
+@media (min-width:768px) {
+
+    header h3 {
+        color:  #333333;
+        padding: 20px ;
+    
+    }
+
+    main.container {
+        display: flex;
+        flex-direction: row;
+        height: 90vh;
+        
+    }
+
+    section.card-error {
+       width: 650px;
+        
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    .img-error {
+        
+        margin-right: 50px;
+        height: 300px;
+        width: auto;
+    }
+
+    .img-error-espantalho {
+        width: auto; 
+        height: 250px;
+    }
+
+    .text-error {
+        display: flex;
+        flex-direction: column;        
+    }
+
+
+    .text-error-tittle {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: space-mono, mono;
+        color: #333333;
+    
+    }
+
+    .text-error-paragraph {
+        
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        font-family: space-mono, mono;
+        font-weight: 700;
+    
+        
+    }
+
+
+
+
+
+    .card-error-button {
+        margin-left: 25px;
+    }
+}
+
+
+@media (min-width:1024px) {
+
+    header h3 {
+        color:  #333333;
+        padding: 20px ;
+        font-size: 25px;
+    
+    }
+
+    section.card-error {
+        width: 900px;
+         
+         display: flex;
+         align-items: center;
+         margin: auto;
+     }
+
+     .img-error {
+        align-items: center;
+        display: flex;
+        height: 300px;
+        width: auto;
+    }
+
+    .img-error-espantalho {
+        width: auto; 
+        height: 400px;
+        margin-left: -80px;
+        margin-top: -80px;
+    }
+
+    .text-error-tittle {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: space-mono, mono;
+        color: #333333;
+        margin-top: -150px;
+    
+    }
+
+    .text-error-paragraph {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        font-family: space-mono;
+        font-weight: 700;
+
+        width: 350px;
+
+        margin-top: 20px;
+    
+        
+    }
+
+    .card-error-button {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+}
